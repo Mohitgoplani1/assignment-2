@@ -10,12 +10,12 @@
 </head>
 <header>
     <div class="logo">
-      <img src="images/logo.png" alt="Food Blog Logo">
+      <img src="Images/62e1154107d87_json_image_1658918209.webp" alt="Food Blog Logo">
     </div>
     <nav>
       <ul>
         <li><a href="{{route('home')}}">Food Blog</a></li>
-        <li><a href="#">Listings</a></li>
+        {{-- <li><a href="#">Listings Your Recipe</a></li> --}}
         <li><a href="{{route('home')}}">Blog</a></li>
         <li class="active"><a href="/Aboutus">About Us</a></li>
         @if (Route::has('login'))
@@ -122,20 +122,31 @@ padding: 11px;margin-left:30px"><a href="https://www.linkedin.com/in/aditya-wanw
 
  <style>
     body{
+
 background-color:#9d2424d4;
 border-radius: 10px;
+
 }
+
+
 .card{
 width: 400px;
 border: none;
 border-radius: 10px;
+
 background-color: #fff;
 }
+
+
+
 .stats{
+
   background: #f2f5f8 !important;
+
 color: #000 !important;
 }
 .articles{
+
 color: #595b60;
 }
 .number1{
@@ -143,6 +154,7 @@ font-weight:500;
 padding: 5px;
 }
 .followers{
+
 color: #595b60;
 padding: 5px;
 }

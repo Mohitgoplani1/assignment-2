@@ -10,7 +10,8 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
-        "orkhanahmadov/laravel-accept-language-middleware": "^2.2"
+        "orkhanahmadov/laravel-accept-language-middleware": "^2.2",
+        "orkhanahmadov/laravel-ip-middleware": "^1.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
