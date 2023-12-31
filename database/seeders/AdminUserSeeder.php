@@ -20,14 +20,8 @@ class AdminUserSeeder extends Seeder
             'password' => Hash::make('Nagpur2023!'),
         ]);
         User::create([
-            'name' => 'Ganesha',
-            'email' => 'ganesha@gmail.com',
-            'role_id' => 1,
-            'password' => Hash::make('Nagpur2023!'),
-        ]);
-        User::create([
-            'name' => 'Aditya wanwade',
-            'email' => 'Adiwanwade@gmail.com',
+            'name' => 'Tushar Joshi',
+            'email' => 'tushar@gmail.com',
             'role_id' => 2,
             'password' => Hash::make('Nagpur2023!'),
         ]);

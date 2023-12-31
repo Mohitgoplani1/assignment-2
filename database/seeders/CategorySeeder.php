@@ -13,19 +13,16 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         Category::create([
-            'name' => 'Indian'
+            'name' => 'Technology'
         ]);
         Category::create([
-            'name' => 'Chinese'
+            'name' => 'Politics'
         ]);
         Category::create([
-            'name' => 'Continental'
+            'name' => 'Spiritual'
         ]);
         Category::create([
-            'name' => 'French'
-        ]);
-        Category::create([
-            'name' => 'American'
+            'name' => 'Work'
         ]);
     }
 }

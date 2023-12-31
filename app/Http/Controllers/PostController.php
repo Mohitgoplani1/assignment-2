@@ -15,8 +15,8 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::paginate(3);
-        
+        $posts = Post::all();
+
         return view('admin.posts.index', compact(['posts']));
     }
 
@@ -61,7 +61,7 @@ class PostController extends Controller
             return redirect(route('admin-posts'));
         }
         $categories = Category::all();
-        return view('admin.posts.edit', compact('categories','post'));
+        return view('admin.posts.edit', compact('categories', 'post'));
     }
 
     /**

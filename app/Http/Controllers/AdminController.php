@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
@@ -11,17 +12,22 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin.index');
+        $html = Str::markdown('
+# Heading
+
+**bold**
+![eagle](/images/eagle.png)
+
+1. One
+2. Two
+        ');
+        return view('admin.index', ['html' => $html]);
     }
 
     /**
      * Show the form for creating a new resource.
      */
-
-     public function __construct() {
-        $this->middleware('auth');
-    }
-     public function create()
+    public function create()
     {
         //
     }

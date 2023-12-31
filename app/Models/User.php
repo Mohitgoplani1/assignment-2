@@ -22,7 +22,7 @@ class User extends Authenticatable
         'email',
         'password',
         'role_id',
-        'active',
+        'active'
     ];
 
     /**
@@ -45,12 +45,14 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-public function role() {
-    return $this->belongsTo(Role::class);
-}
-public function isAdmin() {
-    if( $this->role->name == 'Administrator') {
-        return true;
+    public function role() {
+        return $this->belongsTo(Role::class);
     }
-    return false;
-}}
+
+    public function isAdmin() {
+        if( $this->role->name == 'Administrator') {
+            return true;
+        }
+        return false;
+    }
+}
