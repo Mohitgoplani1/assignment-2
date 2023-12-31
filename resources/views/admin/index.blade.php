@@ -1,9 +1,9 @@
 <x-admin-layout>
     <x-slot name="header">
-        {{ __('New Admin Section')}}
+        {{ __(' Admin Section')}}
     </x-slot>
 
-    This is the content of my admin home
+  <h1>Mohit Goplani</h1>
     @if(isset($html))
     <div class="p-2 prose">
     {!! $html !!}

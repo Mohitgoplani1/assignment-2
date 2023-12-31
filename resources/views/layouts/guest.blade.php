@@ -14,7 +14,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body style="background-color: rgb(158, 231, 231);font-family:sans-serif">
+    <body style="background-image:url(https://wallpaperaccess.com/full/1426875.jpg);background-size:cover;font-family:sans-serif">
         <div class="container mx-auto p-8">
             <!-- Header -->
             @if (isset($header))

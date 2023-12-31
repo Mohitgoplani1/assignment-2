@@ -14,7 +14,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased">
+    <body style="background-image:url(https://wallpaperaccess.com/full/1426875.jpg);background-size:cover;font-family:sans-serif">
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 

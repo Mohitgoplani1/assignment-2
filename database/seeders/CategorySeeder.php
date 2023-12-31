@@ -13,16 +13,16 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         Category::create([
-            'name' => 'Technology'
+            'name' => 'Documentary Book'
         ]);
         Category::create([
-            'name' => 'Politics'
+            'name' => 'Comedy Book'
         ]);
         Category::create([
-            'name' => 'Spiritual'
+            'name' => 'Horror Book'
         ]);
         Category::create([
-            'name' => 'Work'
+            'name' => 'Inspirational Book'
         ]);
     }
 }
